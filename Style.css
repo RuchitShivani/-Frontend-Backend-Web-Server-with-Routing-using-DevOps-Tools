@@ -1,0 +1,73 @@
+/* General Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text for contrast */
+  text-align: center;
+  padding: 30px;
+}
+
+/* Header Styling */
+h1 {
+  font-size: 3rem;
+  color: #ff6347; /* Tomato color for the header */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styling */
+button {
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Response Styling */
+#response {
+  background-color: #333; /* Dark gray background for the response area */
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 2px solid #ccc;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Adding a smooth animation to the response */
+#response p {
+  font-size: 1.2rem;
+  color: #fff; /* White text for the response */
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Button Group Styling */
+button + button {
+  margin-left: 20px;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  font-size: 1rem;
+  color: #aaa;
+}
