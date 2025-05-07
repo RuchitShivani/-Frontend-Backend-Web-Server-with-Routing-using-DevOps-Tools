@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Routing Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Frontend - API Routing Demo</h1>
+    <p>Click below buttons to call the backend APIs:</p>
+    
+    <div class="button-container">
+      <button onclick="callAPI('hello')" id="hello-btn">Call Hello API</button>
+      <button onclick="callAPI('goodbye')" id="goodbye-btn">Call Goodbye API</button>
+    </div>
+    
+    <div id="response" class="response">
+      <p><strong>Response:</strong> Waiting for API call...</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
