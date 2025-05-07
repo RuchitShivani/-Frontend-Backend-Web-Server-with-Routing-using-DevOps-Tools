@@ -65,6 +65,8 @@ Routing in Action
 Click Call Hello API → shows: "Hello from the backend!"
 
 Click Call Goodbye API → shows: "Goodbye from the backend!"
+![Screenshot 2025-05-06 171634](https://github.com/user-attachments/assets/84f71da7-42f8-4812-8e8d-919deeae4434)
+![image](https://github.com/user-attachments/assets/96c9b9c8-227e-49f7-906c-e0d00579120f)
 
 📬 API Routes
 Route	Method	Description
